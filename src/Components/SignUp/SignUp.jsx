@@ -77,7 +77,7 @@ function Signup() {
             
             </form>
             <p className='text-center text-lg py-3'>Already Registered !
-              <NavLink to='/login' className='underline px-3 text-sky-500 font-semibold text-lg'>Login</NavLink>
+              <NavLink to='/Signin' className='underline px-3 text-sky-500 font-semibold text-lg'>Login</NavLink>
             </p>
                     </div>
     </div>

@@ -9,7 +9,6 @@ const Root_layout = () => {
        <Navbar/>
         <Outlet />
         <Footer/>
-        
     </div>
   )
 }

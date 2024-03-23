@@ -1,31 +1,22 @@
 import React from 'react'
-
+import './Footer.css'
 const Footer = () => {
   return (
     <div className=' text-black flex '>
-        <div className='px-40 flex-col py-10'>
-            
-                <h1 className='p-3'>CONTACT US</h1>
-                <li>shmr123@gmail.com</li>
-                <li>Mobile-1 : 7013108450</li>
-                <li>Mobile-2 : 8686335240</li>
-            
+         <footer>
+        <h2>Subscribe & <br/> get special discount</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt neque animi .</p>
+        <div className="input">
+            <input  className='' type="text" placeholder="Enter your Email Address"/>
+            <button>Subscribe</button>
         </div>
-        <div className='px-35 flex-col py-10'>
-                <h1 className='p-3'>ACTIVITIES</h1>
-                <li>SUPPORT</li>
-                <li>PROJECTS</li>
-                <li>SERVICES</li>
-            
-        </div>
-        <div className='px-40 flex-col py-10'>
-            
-                <h1 className='p-3'>SOCIAL</h1>
-                <li>Git</li>
-                <li>LinkedIn</li>
-                <li>Twitter</li>
-            
-        </div>  
+        <ul>
+            <li>7823 <br/> <h6>Years Serving the travel Industry</h6></li>
+            <li>6374 <br/><h6>Global <br/> Patnership</h6> </li>
+            <li>1496 <br/> <h6>Industry Awards since 2022</h6></li>
+            <li>5658 <br/> <h6>Subscribe</h6></li>
+        </ul>
+    </footer>
     </div>
   )
 }
